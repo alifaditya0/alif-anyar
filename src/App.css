@@ -1,0 +1,226 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Parentbox {
+  width: 90%;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 100px;
+}
+.Parentbox1 {
+  width: 100%;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.Foto {
+  float: left;
+  width: 50%;
+  height: 700px;
+}
+.Foto1 {
+  float: left;
+  width: 50%;
+  height: 700px;
+}
+.Foto img {
+  border: solid;
+  width: 700px;
+  height: 550px;
+}
+.Foto1 img {
+  border: solid;
+  width: 700px;
+  height: 550px;
+}
+
+.Deskripsi {
+  width: 40%;
+  overflow: hidden;
+  float: left;
+  margin-left: 5px;
+}
+.Deskripsi1 {
+  width: 40%;
+  overflow: hidden;
+  float: left;
+  margin-left: 5px;
+}
+
+.Deskripsi .Info {
+  line-height: 1.8;
+  color: rgb(18, 11, 49);
+}
+
+.Deskripsi .Price {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.Deskripsi .Title {
+  margin: 0;
+}
+
+.Deskripsi .Cate {
+  color: #acaeb2;
+}
+.Deskripsi1.Cate {
+  color: #acaeb2;
+}
+#judul {
+  font-size: 40px;
+  color: grey;
+}
+#nomer {
+  color: green;
+}
+#i {
+  width: 40px;
+}
+#button {
+  background-color: white;
+  width: 80px;
+  height: 35px;
+}
+#button3 {
+  box-shadow: 0px 0px 0px 2px grey;
+  border: white;
+  border-radius: 6px;
+  background-color: white;
+  width: 80px;
+  height: 35px;
+}
+#o {
+  background-color: black;
+  width: 200px;
+  height: 50px;
+}
+#u {
+  border: white;
+  width: 200px;
+  height: 50px;
+}
+#v {
+  color: white;
+}
+#button:hover {
+  background-color: yellow;
+}
+#button3:hover {
+  background-color: yellow;
+}
+#z {
+  font-size: 12px;
+  color: gray;
+}
+#j {
+  color: blue;
+}
+#name {
+  font-size: 50px;
+}
+#button23 {
+  box-shadow: 0px 0px 0px 2px grey;
+  border-radius: 6px;
+  border: white;
+  background-color: white;
+  width: 100px;
+  height: 35px;
+}
+#button23:hover {
+  background-color: yellow;
+}
+#svg {
+  width: 25px;
+}
+#b {
+  border-radius: 6px;
+  border: white;
+  background-color: green;
+  width: 150px;
+}
+#b:hover {
+  background-color: red;
+}
+#w {
+  box-shadow: 0px 0px 0px 3px grey;
+  border: white;
+  font-size: 20px;
+  color: red;
+  background-color: red;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+#e {
+  box-shadow: 0px 0px 0px 3px grey;
+  border: white;
+  font-size: 20px;
+  color: blue;
+  background-color: blue;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+#q {
+  box-shadow: 0px 0px 0px 3px grey;
+  border: white;
+  font-size: 20px;
+  color: black;
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+#w:hover {
+  color: white;
+}
+#e:hover {
+  color: white;
+}
+#q:hover {
+  color: white;
+}
+#n {
+  color: grey;
+  font-size: 30px;
+}
+#svg {
+}
